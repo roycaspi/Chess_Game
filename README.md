@@ -25,3 +25,23 @@ g++ -o chess_game main.cpp Game.cpp Position.cpp Piece.cpp King.cpp Queen.cpp Bi
 ```bash
 ./chess_game
 ```
+
+## Example Gameplay
+```
+Initial Board:
+  a b c d e f g h
+8 r n b q k b n r
+7 p p p p p p p p
+6 . . . . . . . .
+5 . . . . . . . .
+4 . . . . . . . .
+3 . . . . . . . .
+2 P P P P P P P P
+1 R N B Q K B N R
+
+Enter move (e.g., e2 e4):
+e2 e4
+
+Updated Board:
+...
+```
